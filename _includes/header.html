@@ -2,7 +2,13 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <h1 class="site-title-wrap">
+
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+      <span class="site-mission">Сайт сегодня - ваш успех завтра</span>
+
+    </h1>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -19,6 +25,7 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        <span class="page-phone">+7 (8442) 50 04 06</span>
       </div>
     </nav>
 
